@@ -11,5 +11,13 @@ Requisitos
 
 Captura
 ---
-![Mi_Captura](/img/captura.png)
+
+#![Mi_Captura](/img/captura.png)
+
+<div aling = "center">
+    <center>
+        <img src="/img/captura.png" width="300">
+    <center>
+
+</div>
 
