@@ -9,7 +9,7 @@ Requisitos
 * Android Studio 2.2.2
 * Gradle 2.2.2
 
-Captura
+Screenshot
 ---
 
 #![Mi_Captura](/img/captura.png)
