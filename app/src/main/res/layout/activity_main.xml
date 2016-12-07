@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.summy.tarea1.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@mipmap/ic_launcher"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Que quieres escuchar?"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:layout_gravity="center_horizontal"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fiesta"
+            android:background="#FFFFFF"
+            android:textColor="#151515"
+            android:textSize="15sp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:id="@+id/button"
+            android:layout_marginTop="10dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rumba"
+                android:background="#FFFFFF"
+                android:textColor="#151515"
+                android:textSize="15sp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:id="@+id/button4" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pop"
+                android:background="#FFFFFF"
+                android:textColor="#151515"
+                android:textSize="15sp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rock"
+                android:background="#FFFFFF"
+                android:textColor="#151515"
+                android:textSize="15sp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hits"
+                android:background="#FFFFFF"
+                android:textColor="#151515"
+                android:textSize="15sp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="felicidad"
+                android:background="#FFFFFF"
+                android:textColor="#151515"
+                android:textSize="15sp"
+                android:layout_weight="0.84"
+                android:layout_marginTop="3dp"
+                android:layout_margin="3dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="trabajo"
+                android:background="#FFFFFF"
+                android:textColor="#151515"
+                android:textSize="15sp"
+                android:layout_weight="1"
+                android:layout_margin="3dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="amigos"
+                android:background="#FFFFFF"
+                android:textColor="#151515"
+                android:textSize="15sp"
+                android:layout_weight="1"
+                android:id="@+id/button2"
+                android:layout_margin="3dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="4">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ejercicio"
+                android:background="#FFFFFF"
+                android:textColor="#151515"
+                android:textSize="15sp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="verano"
+                android:background="#FFFFFF"
+                android:textColor="#151515"
+                android:textSize="15sp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="2"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="viaje"
+                android:background="#FFFFFF"
+                android:textColor="F5F1F1"
+                android:textSize="15sp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:id="@+id/button3" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="amor"
+                android:background="#FFFFFF"
+                android:textColor="#151515"
+                android:textSize="15sp"
+                android:layout_marginRight="3dp"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Listas Destacadas"
+                android:textStyle="bold"
+                android:textSize="26sp"
+                android:layout_gravity="center"
+                android:paddingRight="40dp"
+                
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CREA TU PLAYLIST"
+                android:background="#58D68D"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+               />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hardwell"/>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
