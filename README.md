@@ -1,7 +1,7 @@
 TAREA 1 STUDY JAM
 =====
 
-La tarea esta basada en la plicacion MUSICA VIVA
+La tarea esta basada en la plicacion MUSICA VIVA 
 
 Requisitos
 -----
@@ -12,7 +12,7 @@ Requisitos
 Screenshot
 ---
 
-#![Mi_Captura](/img/captura.png)
+
 
 <div aling = "center">
     <center>
